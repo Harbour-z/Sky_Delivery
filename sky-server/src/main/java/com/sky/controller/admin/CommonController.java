@@ -2,6 +2,7 @@ package com.sky.controller.admin;
 
 import com.sky.constant.MessageConstant;
 import com.sky.result.Result;
+import com.sky.utils.AliOssUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

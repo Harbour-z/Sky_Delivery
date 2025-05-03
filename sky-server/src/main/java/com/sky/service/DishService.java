@@ -5,6 +5,8 @@ import com.sky.dto.DishPageQueryDTO;
 import com.sky.entity.Dish;
 import com.sky.result.PageResult;
 
+import java.util.List;
+
 public interface DishService {
   //新增菜品与对应口味
   public void saveWithFlavor(DishDTO dishDTO);
@@ -12,4 +14,6 @@ public interface DishService {
   //菜品分页查询
 
   PageResult pageQuery(DishPageQueryDTO dishPageQueryDTO);
+
+  void deleteBatch(List<Long> ids);
 }

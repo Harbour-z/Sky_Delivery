@@ -2,3 +2,5 @@ nginx中为前端代码，项目采用前后端分离模式开发；后端分模
 
 在JWT令牌校验中，对文件 `sky-server/src/main/java/com/sky/interceptor/JwtTokenAdminInterceptor.java` 
 重写了afterCompletion方法，旨在删除添加到线程空间中的动态获取的ID值。
+
+由于没有商户号，跳过了具体的付款环节，但是完成了小程序的支付请求功能。

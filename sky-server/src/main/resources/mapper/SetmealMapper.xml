@@ -76,4 +76,7 @@
             </if>
         </where>
     </select>
+    <select id="countByMap" resultType="java.lang.Integer">
+
+    </select>
 </mapper>
